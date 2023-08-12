@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package rebot;
+option go_package="./rebot";
+
+message Request {
+  string ping = 1;
+}
+
+message Response {
+  string pong = 1;
+}
+
+service Rebot {
+  rpc Ping(Request) returns(Response);
+}
