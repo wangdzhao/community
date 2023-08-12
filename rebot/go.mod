@@ -3,6 +3,7 @@ module github.com/wangdzhao/community/rebot
 go 1.20
 
 require (
+	github.com/wangdzhao/discovery v0.0.0-20230812053949-646374dcdf19
 	github.com/zeromicro/go-zero v1.5.4
 	google.golang.org/grpc v1.57.0
 )

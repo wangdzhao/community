@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/wangdzhao/community/discovery/pb"
+	pb "github.com/wangdzhao/discovery/pb"
 
 	"github.com/wangdzhao/community/rebot/internal/svc"
 	"github.com/wangdzhao/community/rebot/internal/types"
