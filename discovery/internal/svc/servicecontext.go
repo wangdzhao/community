@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"discovery/internal/config"
+	"github.com/wangdzhao/community/discovery/internal/config"
 )
 
 type ServiceContext struct {

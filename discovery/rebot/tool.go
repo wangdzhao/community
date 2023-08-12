@@ -1,8 +1,10 @@
 package rebot
 
 import (
-	"discovery/util"
 	"fmt"
+
+	util "github.com/wangdzhao/community/discovery/util"
+
 	//"pinchequn/config"
 	//"pinchequn/util"
 	"regexp"

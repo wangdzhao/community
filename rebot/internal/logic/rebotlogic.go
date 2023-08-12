@@ -2,14 +2,16 @@ package logic
 
 import (
 	"context"
-	pb "discovery/pb"
 	"fmt"
+	"log"
+	"time"
+
+	pb "github.com/wangdzhao/community/discovery/pb"
+
+	"github.com/wangdzhao/community/rebot/internal/svc"
+	"github.com/wangdzhao/community/rebot/internal/types"
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/grpc"
-	"log"
-	"rebot/internal/svc"
-	"rebot/internal/types"
-	"time"
 )
 
 type RebotLogic struct {

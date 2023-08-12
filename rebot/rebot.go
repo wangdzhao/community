@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"rebot/internal/config"
-	"rebot/internal/handler"
-	"rebot/internal/svc"
+	"github.com/wangdzhao/community/rebot/internal/config"
+	"github.com/wangdzhao/community/rebot/internal/handler"
+	"github.com/wangdzhao/community/rebot/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"

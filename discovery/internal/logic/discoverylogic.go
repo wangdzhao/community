@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"discovery/internal/svc"
-	"discovery/internal/types"
+	"github.com/wangdzhao/community/discovery/internal/svc"
+	"github.com/wangdzhao/community/discovery/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

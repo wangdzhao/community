@@ -4,7 +4,7 @@ package handler
 import (
 	"net/http"
 
-	"rebot/internal/svc"
+	"github.com/wangdzhao/community/rebot/internal/svc"
 
 	"github.com/zeromicro/go-zero/rest"
 )

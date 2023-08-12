@@ -1,10 +1,11 @@
 package rebot
 
 import (
-	"discovery/util"
 	"fmt"
 	"io"
 	"time"
+
+	util "github.com/wangdzhao/community/discovery/util"
 
 	"github.com/eatmoreapple/openwechat"
 )

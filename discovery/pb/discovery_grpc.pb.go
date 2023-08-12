@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	Discovery_Ping_FullMethodName = "/discovery.Discovery/Ping"
+	Discovery_Ping_FullMethodName = "/discovery.github.com/wangdzhao/community/discovery/Ping"
 )
 
 // DiscoveryClient is the client API for Discovery service.

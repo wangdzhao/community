@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"rebot/internal/config"
+	"github.com/wangdzhao/community/rebot/internal/config"
 )
 
 type ServiceContext struct {

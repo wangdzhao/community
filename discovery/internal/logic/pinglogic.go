@@ -2,9 +2,10 @@ package logic
 
 import (
 	"context"
-	"discovery/pb"
 
-	"discovery/internal/svc"
+	pb "github.com/wangdzhao/community/discovery/pb"
+
+	"github.com/wangdzhao/community/discovery/internal/svc"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 
